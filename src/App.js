@@ -12,6 +12,7 @@ import Widget from "./Widget";
 
 function App() {
   const user = useSelector(selectUser);
+  
   const dispatch = useDispatch();
 
   useEffect(() => {
